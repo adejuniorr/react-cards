@@ -5,6 +5,12 @@ export const QueenCards = () => {
   return (
     <>
       <Card
+        shadowColor={cards.queen[1].shadowColor}
+        borderColor={cards.queen[1].borderColor}
+        nameColor={cards.queen[1].nameColor}
+        nameDarkColor={cards.queen[1].nameDarkColor}
+        fontTop={cards.queen[1].fontTop}
+        fontBottom={cards.queen[1].fontBottom}
         backImg={cards.queen[0].backCardImg}
         frontImg={cards.queen[1].image}
         name={cards.queen[1].name}
@@ -13,6 +19,12 @@ export const QueenCards = () => {
         primarySkill={cards.queen[1].primarySkill}
       />
       <Card
+        shadowColor={cards.queen[1].shadowColor}
+        borderColor={cards.queen[1].borderColor}
+        nameColor={cards.queen[1].nameColor}
+        nameDarkColor={cards.queen[1].nameDarkColor}
+        fontTop={cards.queen[1].fontTop}
+        fontBottom={cards.queen[1].fontBottom}
         backImg={cards.queen[0].backCardImg}
         frontImg={cards.queen[2].image}
         name={cards.queen[2].name}
@@ -21,6 +33,12 @@ export const QueenCards = () => {
         primarySkill={cards.queen[2].primarySkill}
       />
       <Card
+        shadowColor={cards.queen[1].shadowColor}
+        borderColor={cards.queen[1].borderColor}
+        nameColor={cards.queen[1].nameColor}
+        nameDarkColor={cards.queen[1].nameDarkColor}
+        fontTop={cards.queen[1].fontTop}
+        fontBottom={cards.queen[1].fontBottom}
         backImg={cards.queen[0].backCardImg}
         frontImg={cards.queen[3].image}
         name={cards.queen[3].name}
@@ -29,6 +47,12 @@ export const QueenCards = () => {
         primarySkill={cards.queen[3].primarySkill}
       />
       <Card
+        shadowColor={cards.queen[1].shadowColor}
+        borderColor={cards.queen[1].borderColor}
+        nameColor={cards.queen[1].nameColor}
+        nameDarkColor={cards.queen[1].nameDarkColor}
+        fontTop={cards.queen[1].fontTop}
+        fontBottom={cards.queen[1].fontBottom}
         backImg={cards.queen[0].backCardImg}
         frontImg={cards.queen[4].image}
         name={cards.queen[4].name}

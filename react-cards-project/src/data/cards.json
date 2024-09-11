@@ -1,81 +1,147 @@
 {
     "queen": [
-        { "backCardImg": "src/assets/images/queen/queen-band.svg" },
+        { 
+            "backCardImg": "src/assets/images/queen/queen-band.svg"
+        },
         {
             "name": "Freddie Mercury",
             "power": "896",
             "ultimate": "Killer Queen",
             "primarySkill": "Vocal",
-            "image": "src/assets/images/queen/freddie-mercury.svg"
+            "image": "src/assets/images/queen/freddie-mercury.svg",
+            "shadowColor": "purple-500",
+            "borderColor": "purple-800",
+            "nameColor": "purple-500",
+            "nameDarkColor": "purple-900",
+            "fontTop": "purple-500",
+            "fontBottom": "purple-900"
         },
         {
             "name": "Brian May",
             "power": "794",
             "ultimate": "Star Love",
             "primarySkill": "Guitar",
-            "image": "src/assets/images/queen/brian-may.svg"
+            "image": "src/assets/images/queen/brian-may.svg",
+            "shadowColor": "purple-500",
+            "borderColor": "purple-800",
+            "nameColor": "purple-500",
+            "nameDarkColor": "purple-900",
+            "fontTop": "purple-500",
+            "fontBottom": "purple-900"
         },
         {
             "name": "Roger Taylor",
             "power": "762",
             "ultimate": "Beat Machine",
             "primarySkill": "Drums",
-            "image": "src/assets/images/queen/roger-taylor.svg"
+            "image": "src/assets/images/queen/roger-taylor.svg",
+            "shadowColor": "purple-500",
+            "borderColor": "purple-800",
+            "nameColor": "purple-500",
+            "nameDarkColor": "purple-900",
+            "fontTop": "purple-500",
+            "fontBottom": "purple-900"
         },
         {
             "name": "John Deacon",
             "power": "672",
             "ultimate": "Heavy String",
             "primarySkill": "Bass",
-            "image": "src/assets/images/queen/john-deacon.svg"
+            "image": "src/assets/images/queen/john-deacon.svg",
+            "shadowColor": "purple-500",
+            "borderColor": "purple-800",
+            "nameColor": "purple-500",
+            "nameDarkColor": "purple-900",
+            "fontTop": "purple-500",
+            "fontBottom": "purple-900"
         }
     ],
     "gnr": [
-        { "backCardImg": "src/assets/images/gnr/gnr-band.svg" },
+        { 
+            "backCardImg": "src/assets/images/gnr/gnr-band.svg"
+        },
         {
             "name": "Axl Rose",
             "power": "824",
             "ultimate": "Rocket Queen",
             "primarySkill": "Vocal",
-            "image": "src/assets/images/gnr/axl-rose.svg"
+            "image": "src/assets/images/gnr/axl-rose.svg", 
+            "shadowColor": "yellow-500",
+            "borderColor": "red-800",
+            "nameColor": "yellow-500",
+            "nameDarkColor": "yellow-900",
+            "fontTop": "red-500",
+            "fontBottom": "red-900"
         },
         {
             "name": "Slash",
             "power": "802",
             "ultimate": "Wicked Stone",
             "primarySkill": "Guitar",
-            "image": "src/assets/images/gnr/slash.svg"
+            "image": "src/assets/images/gnr/slash.svg", 
+            "shadowColor": "yellow-500",
+            "borderColor": "red-800",
+            "nameColor": "yellow-500",
+            "nameDarkColor": "yellow-900",
+            "fontTop": "red-500",
+            "fontBottom": "red-900"
         },
         {
             "name": "Steven Adler",
             "power": "752",
             "ultimate": "Strong Tempo",
             "primarySkill": "Drums",
-            "image": "src/assets/images/gnr/steven-adler.svg"
+            "image": "src/assets/images/gnr/steven-adler.svg", 
+            "shadowColor": "yellow-500",
+            "borderColor": "red-800",
+            "nameColor": "yellow-500",
+            "nameDarkColor": "yellow-900",
+            "fontTop": "red-500",
+            "fontBottom": "red-900"
         },
         {
             "name": "Richard Fortus",
             "power": "764",
             "ultimate": "Bodyguard",
             "primarySkill": "Guitar",
-            "image": "src/assets/images/gnr/richard-fortus.svg"
+            "image": "src/assets/images/gnr/richard-fortus.svg", 
+            "shadowColor": "yellow-500",
+            "borderColor": "red-800",
+            "nameColor": "yellow-500",
+            "nameDarkColor": "yellow-900",
+            "fontTop": "red-500",
+            "fontBottom": "red-900"
         }
     ],
     "mj": [
-        { "backCardImg": "src/assets/images/mj/mj-back-img.svg" },
+        { 
+            "backCardImg": "src/assets/images/mj/mj-back-img.svg"
+        },
         {
             "name": "Michael Jackson",
             "power": "935",
             "ultimate": "Thriller",
             "primarySkill": "Vocal & Moves",
-            "image": "src/assets/images/mj/michael-jackson-thriller.svg"
+            "image": "src/assets/images/mj/michael-jackson-thriller.svg",
+            "shadowColor": "red-500",
+            "borderColor": "red-800",
+            "nameColor": "red-500",
+            "nameDarkColor": "red-900",
+            "fontTop": "yellow-500",
+            "fontBottom": "yellow-900"
         },
         {
             "name": "Michael Jackson",
             "power": "935",
             "ultimate": "Moonwalk",
             "primarySkill": "Vocal & Moves",
-            "image": "src/assets/images/mj/michael-jackson-moonwalk.svg"
+            "image": "src/assets/images/mj/michael-jackson-moonwalk.svg",
+            "shadowColor": "marine-blue-500",
+            "borderColor": "gray-100",
+            "nameColor": "white",
+            "nameDarkColor": "gray-400",
+            "fontTop": "marine-blue-500",
+            "fontBottom": "marine-blue-900"
         }
     ]
 }
