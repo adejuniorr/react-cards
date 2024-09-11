@@ -1,29 +1,19 @@
-import { Card } from "./components/Card";
-//import QueenBandLogo from "./images/queen-logo-small.svg";
-import QueenBandImg from "./images/queen-band.svg";
-import FreddieMercuryImg from "./images/freddie-mercury.svg";
+import { QueenCards } from "./QueenCards";
+import { GunsNRosesCards } from "./GunsNRosesCards";
+import { MichaelJacksonCards } from "./MichaelJacksonCards";
 
 export default function App() {
   return (
-    <>
-      <Card
-        backImg={QueenBandImg}
-        frontImg={FreddieMercuryImg}
-        /* bandLogoImg={QueenBandLogo} */
-        name="Freddie Mercury"
-        power={896}
-        ultimate="Killer Queen"
-        primarySkill="Vocal"
-      />
-      <Card
-        backImg={QueenBandImg}
-        frontImg={FreddieMercuryImg}
-        /* bandLogoImg={QueenBandLogo} */
-        name="Freddie Mercury"
-        power={896}
-        ultimate="Killer Queen"
-        primarySkill="Vocal"
-      />
-    </>
+    <div>
+      <div className="flex gap-[20px]">
+        <QueenCards />
+      </div>
+      <div className="flex gap-[20px]">
+        <GunsNRosesCards />
+      </div>
+      <div className="flex gap-[20px]">
+        <MichaelJacksonCards />
+      </div>
+    </div>
   );
 }

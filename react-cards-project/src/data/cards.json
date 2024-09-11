@@ -1,0 +1,81 @@
+{
+    "queen": [
+        { "backCardImg": "src/assets/images/queen/queen-band.svg" },
+        {
+            "name": "Freddie Mercury",
+            "power": "896",
+            "ultimate": "Killer Queen",
+            "primarySkill": "Vocal",
+            "image": "src/assets/images/queen/freddie-mercury.svg"
+        },
+        {
+            "name": "Brian May",
+            "power": "794",
+            "ultimate": "Star Love",
+            "primarySkill": "Guitar",
+            "image": "src/assets/images/queen/brian-may.svg"
+        },
+        {
+            "name": "Roger Taylor",
+            "power": "762",
+            "ultimate": "Beat Machine",
+            "primarySkill": "Drums",
+            "image": "src/assets/images/queen/roger-taylor.svg"
+        },
+        {
+            "name": "John Deacon",
+            "power": "672",
+            "ultimate": "Heavy String",
+            "primarySkill": "Bass",
+            "image": "src/assets/images/queen/john-deacon.svg"
+        }
+    ],
+    "gnr": [
+        { "backCardImg": "src/assets/images/gnr/gnr-band.svg" },
+        {
+            "name": "Axl Rose",
+            "power": "824",
+            "ultimate": "Rocket Queen",
+            "primarySkill": "Vocal",
+            "image": "src/assets/images/gnr/axl-rose.svg"
+        },
+        {
+            "name": "Slash",
+            "power": "802",
+            "ultimate": "Wicked Stone",
+            "primarySkill": "Guitar",
+            "image": "src/assets/images/gnr/slash.svg"
+        },
+        {
+            "name": "Steven Adler",
+            "power": "752",
+            "ultimate": "Strong Tempo",
+            "primarySkill": "Drums",
+            "image": "src/assets/images/gnr/steven-adler.svg"
+        },
+        {
+            "name": "Richard Fortus",
+            "power": "764",
+            "ultimate": "Bodyguard",
+            "primarySkill": "Guitar",
+            "image": "src/assets/images/gnr/richard-fortus.svg"
+        }
+    ],
+    "mj": [
+        { "backCardImg": "src/assets/images/mj/mj-back-img.svg" },
+        {
+            "name": "Michael Jackson",
+            "power": "935",
+            "ultimate": "Thriller",
+            "primarySkill": "Vocal & Moves",
+            "image": "src/assets/images/mj/michael-jackson-thriller.svg"
+        },
+        {
+            "name": "Michael Jackson",
+            "power": "935",
+            "ultimate": "Moonwalk",
+            "primarySkill": "Vocal & Moves",
+            "image": "src/assets/images/mj/michael-jackson-moonwalk.svg"
+        }
+    ]
+}
