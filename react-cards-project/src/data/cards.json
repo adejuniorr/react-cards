@@ -1,7 +1,8 @@
 {
     "queen": [
         { 
-            "backCardImg": "/images/queen/queen-band.svg"
+            "backCardImg": "/images/queen/queen-band.svg",
+            "mainShadowColor": "purple-500"
         },
         {
             "name": "Freddie Mercury",
@@ -58,7 +59,8 @@
     ],
     "gnr": [
         { 
-            "backCardImg": "/images/gnr/gnr-band.svg"
+            "backCardImg": "/images/gnr/gnr-band.svg",
+            "mainShadowColor": "yellow-500"
         },
         {
             "name": "Axl Rose",
@@ -115,7 +117,8 @@
     ],
     "mj": [
         { 
-            "backCardImg": "/images/mj/mj-back-img.svg"
+            "backCardImg": "/images/mj/mj-back-img.svg",
+            "mainShadowColor": "marine-blue-500"
         },
         {
             "name": "Michael Jackson",
@@ -139,7 +142,7 @@
             "shadowColor": "marine-blue-500",
             "borderColor": "gray-100",
             "nameColor": "white",
-            "nameDarkColor": "gray-800",
+            "nameDarkColor": "gray-400",
             "fontTop": "marine-blue-500",
             "fontBottom": "marine-blue-900"
         }

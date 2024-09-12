@@ -24,8 +24,8 @@ export default {
       "marine-blue-900": "#001272",
     },
     fontFamily: {
-      details: ["Niagara Solid"],
+      details: ["Niagara Engraved"],
+      detailsSolid: ["Niagara Solid"],
     },
   },
-  plugins: [],
 };

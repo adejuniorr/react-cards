@@ -1,19 +1,14 @@
-import { QueenCards } from "./QueenCards";
-import { GunsNRosesCards } from "./GunsNRosesCards";
-import { MichaelJacksonCards } from "./MichaelJacksonCards";
+import { CollectionSelector } from "./components/CollectionSelector";
+import { MainHeader } from "./components/MainHeader";
 
 export default function App() {
   return (
-    <div>
-      <div className="flex gap-[20px] flex-wrap">
-        <QueenCards />
-      </div>
-      <div className="flex gap-[20px] flex-wrap">
-        <GunsNRosesCards />
-      </div>
-      <div className="flex gap-[20px] flex-wrap">
-        <MichaelJacksonCards />
-      </div>
-    </div>
+    <>
+      <MainHeader />
+      <p className="text-white font-detailsSolid text-3xl text-center">
+        Selecione uma das coleções abaixo para ter acesso às cartas.
+      </p>
+      <CollectionSelector />
+    </>
   );
 }

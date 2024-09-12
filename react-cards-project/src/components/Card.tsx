@@ -1,3 +1,4 @@
+import { CollectionCard } from "./CollectionCard";
 import { InfoLine } from "./card/InfoLine";
 import { Name } from "./card/Name";
 import { memo, useState } from "react";
@@ -36,24 +37,13 @@ export const Card = memo(function Card({
 
   return (
     <>
-      <div className="font-details h-[500px] overflow-y-hidden border-solid border-[1px] border-red-500 p-[8px]">
+      <div className="font-detailsSolid h-[500px] overflow-y-hidden border-solid border-[1px] border-red-500 p-[8px]">
         {isFlipped ? (
-          <div
-            onClick={() => setIsFlipped(!isFlipped)}
-            className={clsx(
-              "cursor-pointer transition-all hover:shadow-2xl",
-              {
-                "hover:shadow-purple-500": shadowColor === "purple-500",
-                "hover:shadow-yellow-500": shadowColor === "yellow-500",
-                "hover:shadow-red-500": shadowColor === "red-500",
-                "hover:shadow-marine-blue-500":
-                  shadowColor === "marine-blue-500",
-              },
-              "w-[250px] h-[385px] rounded-[8px] outline outline-8 m-10"
-            )}
-          >
-            <img src={backImg} className="w-full h-full" alt="" />
-          </div>
+          <CollectionCard
+            handleOnClick={setIsFlipped(!isFlipped)}
+            backImg={backImg}
+            shadowColor={shadowColor}
+          />
         ) : (
           <>
             <div
