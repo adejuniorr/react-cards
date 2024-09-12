@@ -41,7 +41,7 @@ export const Card = memo(function Card({
         {isFlipped ? (
           <CollectionCard
             handleOnClick={setIsFlipped(!isFlipped)}
-            backImg={backImg}
+            backCardImg={backImg}
             shadowColor={shadowColor}
           />
         ) : (
