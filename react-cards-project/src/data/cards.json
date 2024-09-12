@@ -1,14 +1,14 @@
 {
     "queen": [
         { 
-            "backCardImg": "src/assets/images/queen/queen-band.svg"
+            "backCardImg": "/images/queen/queen-band.svg"
         },
         {
             "name": "Freddie Mercury",
             "power": "896",
             "ultimate": "Killer Queen",
             "primarySkill": "Vocal",
-            "image": "src/assets/images/queen/freddie-mercury.svg",
+            "image": "/images/queen/freddie-mercury.svg",
             "shadowColor": "purple-500",
             "borderColor": "purple-800",
             "nameColor": "purple-500",
@@ -21,7 +21,7 @@
             "power": "794",
             "ultimate": "Star Love",
             "primarySkill": "Guitar",
-            "image": "src/assets/images/queen/brian-may.svg",
+            "image": "/images/queen/brian-may.svg",
             "shadowColor": "purple-500",
             "borderColor": "purple-800",
             "nameColor": "purple-500",
@@ -34,7 +34,7 @@
             "power": "762",
             "ultimate": "Beat Machine",
             "primarySkill": "Drums",
-            "image": "src/assets/images/queen/roger-taylor.svg",
+            "image": "/images/queen/roger-taylor.svg",
             "shadowColor": "purple-500",
             "borderColor": "purple-800",
             "nameColor": "purple-500",
@@ -47,7 +47,7 @@
             "power": "672",
             "ultimate": "Heavy String",
             "primarySkill": "Bass",
-            "image": "src/assets/images/queen/john-deacon.svg",
+            "image": "/images/queen/john-deacon.svg",
             "shadowColor": "purple-500",
             "borderColor": "purple-800",
             "nameColor": "purple-500",
@@ -58,14 +58,14 @@
     ],
     "gnr": [
         { 
-            "backCardImg": "src/assets/images/gnr/gnr-band.svg"
+            "backCardImg": "/images/gnr/gnr-band.svg"
         },
         {
             "name": "Axl Rose",
             "power": "824",
             "ultimate": "Rocket Queen",
             "primarySkill": "Vocal",
-            "image": "src/assets/images/gnr/axl-rose.svg", 
+            "image": "/images/gnr/axl-rose.svg", 
             "shadowColor": "yellow-500",
             "borderColor": "red-800",
             "nameColor": "yellow-500",
@@ -78,7 +78,7 @@
             "power": "802",
             "ultimate": "Wicked Stone",
             "primarySkill": "Guitar",
-            "image": "src/assets/images/gnr/slash.svg", 
+            "image": "/images/gnr/slash.svg", 
             "shadowColor": "yellow-500",
             "borderColor": "red-800",
             "nameColor": "yellow-500",
@@ -91,7 +91,7 @@
             "power": "752",
             "ultimate": "Strong Tempo",
             "primarySkill": "Drums",
-            "image": "src/assets/images/gnr/steven-adler.svg", 
+            "image": "/images/gnr/steven-adler.svg", 
             "shadowColor": "yellow-500",
             "borderColor": "red-800",
             "nameColor": "yellow-500",
@@ -104,7 +104,7 @@
             "power": "764",
             "ultimate": "Bodyguard",
             "primarySkill": "Guitar",
-            "image": "src/assets/images/gnr/richard-fortus.svg", 
+            "image": "/images/gnr/richard-fortus.svg", 
             "shadowColor": "yellow-500",
             "borderColor": "red-800",
             "nameColor": "yellow-500",
@@ -115,14 +115,14 @@
     ],
     "mj": [
         { 
-            "backCardImg": "src/assets/images/mj/mj-back-img.svg"
+            "backCardImg": "/images/mj/mj-back-img.svg"
         },
         {
             "name": "Michael Jackson",
             "power": "935",
             "ultimate": "Thriller",
             "primarySkill": "Vocal & Moves",
-            "image": "src/assets/images/mj/michael-jackson-thriller.svg",
+            "image": "/images/mj/michael-jackson-thriller.svg",
             "shadowColor": "red-500",
             "borderColor": "red-800",
             "nameColor": "red-500",
@@ -135,7 +135,7 @@
             "power": "935",
             "ultimate": "Moonwalk",
             "primarySkill": "Vocal & Moves",
-            "image": "src/assets/images/mj/michael-jackson-moonwalk.svg",
+            "image": "/images/mj/michael-jackson-moonwalk.svg",
             "shadowColor": "marine-blue-500",
             "borderColor": "gray-100",
             "nameColor": "white",
