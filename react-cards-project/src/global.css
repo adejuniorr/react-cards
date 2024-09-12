@@ -5,6 +5,6 @@
 @tailwind utilities;
 
 body {
-    background-color: #202020;
+    background: linear-gradient(to bottom, #303030, #000000);
     overflow-y: hidden;
 }
