@@ -139,7 +139,7 @@
             "shadowColor": "marine-blue-500",
             "borderColor": "gray-100",
             "nameColor": "white",
-            "nameDarkColor": "gray-400",
+            "nameDarkColor": "gray-800",
             "fontTop": "marine-blue-500",
             "fontBottom": "marine-blue-900"
         }
