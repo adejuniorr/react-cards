@@ -3,19 +3,26 @@ import clsx from "clsx";
 interface CollectionCardProps {
   backCardImg: string | undefined;
   shadowColor: string | undefined;
-  floatOnHover?: boolean | undefined;
-  handleOnClick: void;
+  collectionId: number;
+  setSelectedCollection: (num: number) => void;
+  floatOnHover?: boolean;
 }
 
 export const CollectionCard = ({
   backCardImg,
   shadowColor,
+  collectionId,
+  setSelectedCollection,
   floatOnHover,
-  handleOnClick,
 }: CollectionCardProps) => {
+  
+  const showCollection = () => {
+    setSelectedCollection(collectionId);
+  };
+
   return (
     <div
-      onClick={() => handleOnClick}
+      onClick={showCollection}
       className={clsx(
         "cursor-pointer transition-all hover:shadow-2xl",
         {

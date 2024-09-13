@@ -1,10 +1,10 @@
-import { CollectionCard } from "./CollectionCard";
 import { InfoLine } from "./card/InfoLine";
 import { Name } from "./card/Name";
 import { memo, useState } from "react";
 import clsx from "clsx";
 
 interface CardProps {
+  collectionId: number;
   shadowColor: string | undefined;
   borderColor: string | undefined;
   nameColor: string | undefined;
@@ -39,11 +39,21 @@ export const Card = memo(function Card({
     <>
       <div className="font-detailsSolid h-[500px] overflow-y-hidden border-solid border-[1px] border-red-500 p-[8px]">
         {isFlipped ? (
-          <CollectionCard
-            handleOnClick={setIsFlipped(!isFlipped)}
-            backCardImg={backImg}
-            shadowColor={shadowColor}
-          />
+          <div
+            className={clsx(
+              "cursor-pointer transition-all hover:shadow-2xl",
+              {
+                "hover:shadow-purple-500": shadowColor === "purple-500",
+                "hover:shadow-yellow-500": shadowColor === "yellow-500",
+                "hover:shadow-red-500": shadowColor === "red-500",
+                "hover:shadow-marine-blue-500":
+                  shadowColor === "marine-blue-500",
+              },
+              "w-[250px] h-[385px] rounded-[8px] outline outline-8 m-10"
+            )}
+          >
+            <img src={backImg} className="w-full h-full" alt="" />
+          </div>
         ) : (
           <>
             <div
@@ -66,7 +76,7 @@ export const Card = memo(function Card({
                 "m-10"
               )}
             >
-              <img /* LEMBRETE: Reimportar as imagens com opacidade 100% */
+              <img
                 src={frontImg}
                 className="w-full h-full rounded-[8px]"
                 alt=""

@@ -27,5 +27,10 @@ export default {
       details: ["Niagara Engraved"],
       detailsSolid: ["Niagara Solid"],
     },
+    extend: {
+      opacity: {
+        54: "0.54",
+      },
+    },
   },
 };

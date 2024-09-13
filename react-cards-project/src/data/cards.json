@@ -2,11 +2,12 @@
     "queen": [
         { 
             "backCardImg": "/images/queen/queen-band.svg",
-            "mainShadowColor": "purple-500"
+            "mainShadowColor": "purple-500",
+            "collectionId": 0
         },
         {
             "name": "Freddie Mercury",
-            "power": "896",
+            "power": 896,
             "ultimate": "Killer Queen",
             "primarySkill": "Vocal",
             "image": "/images/queen/freddie-mercury.svg",
@@ -19,7 +20,7 @@
         },
         {
             "name": "Brian May",
-            "power": "794",
+            "power": 794,
             "ultimate": "Star Love",
             "primarySkill": "Guitar",
             "image": "/images/queen/brian-may.svg",
@@ -32,7 +33,7 @@
         },
         {
             "name": "Roger Taylor",
-            "power": "762",
+            "power": 762,
             "ultimate": "Beat Machine",
             "primarySkill": "Drums",
             "image": "/images/queen/roger-taylor.svg",
@@ -45,7 +46,7 @@
         },
         {
             "name": "John Deacon",
-            "power": "672",
+            "power": 672,
             "ultimate": "Heavy String",
             "primarySkill": "Bass",
             "image": "/images/queen/john-deacon.svg",
@@ -60,11 +61,12 @@
     "gnr": [
         { 
             "backCardImg": "/images/gnr/gnr-band.svg",
-            "mainShadowColor": "yellow-500"
+            "mainShadowColor": "yellow-500",
+            "collectionId": 1
         },
         {
             "name": "Axl Rose",
-            "power": "824",
+            "power": 824,
             "ultimate": "Rocket Queen",
             "primarySkill": "Vocal",
             "image": "/images/gnr/axl-rose.svg", 
@@ -77,7 +79,7 @@
         },
         {
             "name": "Slash",
-            "power": "802",
+            "power": 802,
             "ultimate": "Wicked Stone",
             "primarySkill": "Guitar",
             "image": "/images/gnr/slash.svg", 
@@ -90,7 +92,7 @@
         },
         {
             "name": "Steven Adler",
-            "power": "752",
+            "power": 752,
             "ultimate": "Strong Tempo",
             "primarySkill": "Drums",
             "image": "/images/gnr/steven-adler.svg", 
@@ -103,7 +105,7 @@
         },
         {
             "name": "Richard Fortus",
-            "power": "764",
+            "power": 764,
             "ultimate": "Bodyguard",
             "primarySkill": "Guitar",
             "image": "/images/gnr/richard-fortus.svg", 
@@ -118,11 +120,12 @@
     "mj": [
         { 
             "backCardImg": "/images/mj/mj-back-img.svg",
-            "mainShadowColor": "marine-blue-500"
+            "mainShadowColor": "marine-blue-500",
+            "collectionId": 2
         },
         {
             "name": "Michael Jackson",
-            "power": "935",
+            "power": 935,
             "ultimate": "Thriller",
             "primarySkill": "Vocal & Moves",
             "image": "/images/mj/michael-jackson-thriller.svg",
@@ -135,7 +138,7 @@
         },
         {
             "name": "Michael Jackson",
-            "power": "935",
+            "power": 935,
             "ultimate": "Moonwalk",
             "primarySkill": "Vocal & Moves",
             "image": "/images/mj/michael-jackson-moonwalk.svg",
