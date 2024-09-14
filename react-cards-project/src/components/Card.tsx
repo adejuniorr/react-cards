@@ -4,7 +4,6 @@ import { memo, useState } from "react";
 import clsx from "clsx";
 
 interface CardProps {
-  collectionId: number;
   shadowColor: string | undefined;
   borderColor: string | undefined;
   nameColor: string | undefined;
@@ -20,28 +19,29 @@ interface CardProps {
 }
 
 export const Card = memo(function Card({
+  backImg,
+  name,
+  power,
+  ultimate,
+  primarySkill,
+  frontImg,
   shadowColor,
   borderColor,
   nameColor,
   nameDarkColor,
   fontTop,
   fontBottom,
-  backImg,
-  frontImg,
-  name,
-  power,
-  ultimate,
-  primarySkill,
 }: CardProps) {
   const [isFlipped, setIsFlipped] = useState<boolean>(true);
 
   return (
     <>
-      <div className="font-detailsSolid h-[500px] overflow-y-hidden border-solid border-[1px] border-red-500 p-[8px]">
+      <div className="font-detailsSolid h-[340px] overflow-y-hidden border-solid">
         {isFlipped ? (
           <div
+            onClick={() => setIsFlipped(!isFlipped)}
             className={clsx(
-              "cursor-pointer transition-all hover:shadow-2xl",
+              "cursor-pointer transition-all hover:shadow-xl",
               {
                 "hover:shadow-purple-500": shadowColor === "purple-500",
                 "hover:shadow-yellow-500": shadowColor === "yellow-500",
@@ -49,17 +49,17 @@ export const Card = memo(function Card({
                 "hover:shadow-marine-blue-500":
                   shadowColor === "marine-blue-500",
               },
-              "w-[250px] h-[385px] rounded-[8px] outline outline-8 m-10"
+              "w-[160px] h-[246px] rounded-[8px] outline outline-8 m-10"
             )}
           >
-            <img src={backImg} className="w-full h-full" alt="" />
+            <img src={backImg} className="w-[100%]" alt="" />
           </div>
         ) : (
           <>
             <div
               onClick={() => setIsFlipped(!isFlipped)}
               className={clsx(
-                "cursor-pointer transition-all hover:shadow-2xl",
+                "relative z-20 cursor-pointer transition-all hover:shadow-xl",
                 {
                   "hover:shadow-purple-500": shadowColor === "purple-500",
                   "hover:shadow-yellow-500": shadowColor === "yellow-500",
@@ -67,21 +67,21 @@ export const Card = memo(function Card({
                   "hover:shadow-marine-blue-500":
                     shadowColor === "marine-blue-500",
                 },
-                "flex z-20 items-end w-[250px] h-[385px] rounded-[8px] border-white outline outline-8",
+                "flex items-end w-[160px] h-[246px] rounded-[8px] border-white outline outline-8",
                 {
                   "outline-purple-800": borderColor === "purple-800",
                   "outline-red-800": borderColor === "red-800",
-                  "outline-gray-100": borderColor === "gray-100",
+                  "outline-gray-200": borderColor === "gray-200",
                 },
                 "m-10"
               )}
             >
               <img
                 src={frontImg}
-                className="w-full h-full rounded-[8px]"
-                alt=""
+                className="w-[100%] rounded-[8px]"
+                alt={name}
               />
-              <div className="absolute bg-gradient-to-t from-black from-[20%] to-transparent w-[250px] rounded-[8px] px-4 py-5">
+              <div className="absolute bg-gradient-to-t from-black from-[20%] to-transparent w-[160px] rounded-[8px] p-3">
                 <InfoLine
                   title="Power"
                   value={power}

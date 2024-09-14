@@ -1,18 +1,15 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import data from "../data/cards.json";
-import { CardsList } from "./CardsList";
+import { CardsList } from "./CollectionCardsList";
 import { CollectionCard } from "./CollectionCard";
 
 export const CollectionSelector = () => {
   const [selectedCollectionId, setSelectedCollectionId] = useState<number>(-1);
-
-  useEffect(() => {
-    console.log(Object.values(data));
-  }, []);
+  const collectionsArr = Object.values(data);
 
   return (
     <>
-      <div className="flex flex-wrap justify-center mt-[150px]">
+      <div className="flex flex-wrap justify-center mt-[280px]">
         {Object.values(data).map((collection) => {
           const { backCardImg, mainShadowColor, collectionId } = collection[0];
 
@@ -31,7 +28,10 @@ export const CollectionSelector = () => {
 
       <CardsList
         isOpen={selectedCollectionId > -1}
-        
+        collectionBackImg={
+          collectionsArr[selectedCollectionId]?.[0].backCardImg
+        }
+        collectionData={collectionsArr[selectedCollectionId]}
         selectedCollectionId={selectedCollectionId}
         setSelectedCollectionId={setSelectedCollectionId}
       />

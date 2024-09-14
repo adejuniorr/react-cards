@@ -8,7 +8,6 @@ export default {
       current: "currentColor",
       white: "#f0f0f0",
       black: "#0f0f0f",
-      "gray-100": "#D6DCF3",
       "gray-200": "#D6DCF3",
       "gray-800": "#8A8A8A",
       "gray-900": "#666666",
@@ -31,6 +30,10 @@ export default {
       opacity: {
         54: "0.54",
       },
+    },
+    boxShadow: {
+      md: "0 4px 15px -1px rgb(0 0 0 / 0.1)",
+      xl: "0 10px 25px -5px rgb(0 0 0 / 0.1)",
     },
   },
 };

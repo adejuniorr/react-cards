@@ -7,15 +7,20 @@ interface InfoLineProps {
   fontBottom: string | undefined;
 }
 
-export const InfoLine = ({ title, value, fontTop, fontBottom }: InfoLineProps) => {
+export const InfoLine = ({
+  title,
+  value,
+  fontTop,
+  fontBottom,
+}: InfoLineProps) => {
   return (
     <p className="m-0">
-      <span className="text-3xl bg-clip-text text-transparent bg-gradient-to-b from-white from-50% to-gray">
+      <span className="text-2xl bg-clip-text text-transparent bg-gradient-to-b from-white from-50% to-gray">
         {title}:{" "}
       </span>
       <span
         className={clsx(
-          "text-3xl bg-clip-text text-transparent bg-gradient-to-b",
+          "text-2xl bg-clip-text text-transparent bg-gradient-to-b",
           {
             "from-purple-500": fontTop === "purple-500",
             "from-red-500": fontTop === "red-500",

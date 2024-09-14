@@ -15,7 +15,6 @@ export const CollectionCard = ({
   setSelectedCollection,
   floatOnHover,
 }: CollectionCardProps) => {
-  
   const showCollection = () => {
     setSelectedCollection(collectionId);
   };
@@ -32,7 +31,7 @@ export const CollectionCard = ({
           "hover:shadow-marine-blue-500": shadowColor === "marine-blue-500",
           "hover:translate-y-[-50px]": floatOnHover,
         },
-        "w-[250px] h-[385px] rounded-[8px] outline outline-8 m-10"
+        "w-[160px] h-[246px] rounded-[8px] outline outline-8 m-10"
       )}
     >
       <img src={backCardImg} className="w-full h-full" alt="" />
