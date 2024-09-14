@@ -49,7 +49,7 @@ export const Card = memo(function Card({
                 "hover:shadow-marine-blue-500":
                   shadowColor === "marine-blue-500",
               },
-              "w-[160px] h-[246px] rounded-[8px] outline outline-8 m-10"
+              "w-[175px] rounded-[8px] outline outline-8 m-10"
             )}
           >
             <img src={backImg} className="w-[100%]" alt="" />
@@ -67,7 +67,7 @@ export const Card = memo(function Card({
                   "hover:shadow-marine-blue-500":
                     shadowColor === "marine-blue-500",
                 },
-                "flex items-end w-[160px] h-[246px] rounded-[8px] border-white outline outline-8",
+                "flex items-end w-[175px] rounded-[8px] border-white outline outline-8",
                 {
                   "outline-purple-800": borderColor === "purple-800",
                   "outline-red-800": borderColor === "red-800",
@@ -81,7 +81,7 @@ export const Card = memo(function Card({
                 className="w-[100%] rounded-[8px]"
                 alt={name}
               />
-              <div className="absolute bg-gradient-to-t from-black from-[20%] to-transparent w-[160px] rounded-[8px] p-3">
+              <div className="absolute bg-gradient-to-t from-black from-[30%] to-transparent w-[175px] rounded-[8px] p-3">
                 <InfoLine
                   title="Power"
                   value={power}

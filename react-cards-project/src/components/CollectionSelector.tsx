@@ -9,7 +9,7 @@ export const CollectionSelector = () => {
 
   return (
     <>
-      <div className="flex flex-wrap justify-center mt-[280px]">
+      <div className="flex flex-wrap justify-center mt-[230px]">
         {Object.values(data).map((collection) => {
           const { backCardImg, mainShadowColor, collectionId } = collection[0];
 
@@ -32,7 +32,6 @@ export const CollectionSelector = () => {
           collectionsArr[selectedCollectionId]?.[0].backCardImg
         }
         collectionData={collectionsArr[selectedCollectionId]}
-        selectedCollectionId={selectedCollectionId}
         setSelectedCollectionId={setSelectedCollectionId}
       />
     </>

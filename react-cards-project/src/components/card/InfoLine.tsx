@@ -15,7 +15,7 @@ export const InfoLine = ({
 }: InfoLineProps) => {
   return (
     <p className="m-0">
-      <span className="text-2xl bg-clip-text text-transparent bg-gradient-to-b from-white from-50% to-gray">
+      <span className="text-xl bg-clip-text text-transparent bg-gradient-to-b from-white from-50% to-gray-900">
         {title}:{" "}
       </span>
       <span
