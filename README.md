@@ -1,4 +1,4 @@
-# React Cards
+# React Cards (en)
 
 This is a small [React.js](https://react.dev/) project that I created to venture into web development using the [TypeScript](https://www.typescriptlang.org/) language and the [TailwindCSS](https://tailwindcss.com/) framework.
 
